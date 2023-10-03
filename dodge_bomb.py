@@ -33,6 +33,7 @@ def main():
     kk_img = pg.transform.rotozoom(kk_img, 0, 2.0)
     kk_rct = kk_img.get_rect()
     kk_rct.center = (900, 400) #練習3：こうかとんの初期座標を設定する
+    
     """ばくだん"""
     accs = [a for a in range(1, 11)]
     bd_imgs = []
